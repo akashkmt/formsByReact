@@ -1,0 +1,22 @@
+{
+  "employeeDetails": [
+    {
+      "name": "Akash Kumawat",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 1
+    },
+    {
+      "name": "Akash",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Education",
+      "isMarried": true,
+      "id": 2
+    }
+  ]
+}
