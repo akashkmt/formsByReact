@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function MakeTable ({allEmployeeData}) {
+export default function MakeTable ({allEmployeeData, handlePage , page, lastPage}) {
     // console.log(allEmployeeData);
     return (
-        <>
+        <div id="tableDiv">
         <h2 style={{marginTop:"30px"}}>All Employee Details</h2>
         <table id="employeeTable">
             <thead>
@@ -35,6 +35,8 @@ export default function MakeTable ({allEmployeeData}) {
                 }
             </tbody>
         </table>
-        </>
+        <button onClick={()=>handlePage(-1)} disabled={page === 1}>PREV</button>
+        <button onClick={()=>handlePage(1)} disabled={page === lastPage}>NEXT</button>
+        </div>
     )
 }

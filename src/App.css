@@ -40,6 +40,7 @@ input, select{
   margin: auto;
   border-collapse: collapse;
   padding: 5px;
+  margin-bottom: 10px;
 }
 .thAndTd{
   border: .1px solid gray;
@@ -47,4 +48,7 @@ input, select{
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}
+#tableDiv{
+  margin-bottom: 20px;
 }
