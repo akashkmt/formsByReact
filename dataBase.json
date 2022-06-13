@@ -107,6 +107,15 @@
       "department": "Education",
       "isMarried": true,
       "id": 12
+    },
+    {
+      "name": "git",
+      "age": "12",
+      "address": "hub",
+      "salary": "124",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 13
     }
   ]
 }
